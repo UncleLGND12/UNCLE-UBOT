@@ -4,13 +4,13 @@ FROM xluxz/geezproject:buster
 # Geez-UserBot
 #yaudah iya
 
-RUN git clone -b UNCLE-UBOT https://github.com/UncleLGND12/UNCLE-UBOT /root/userbot
+RUN git clone -b UNCLE-UBOT https://github.com/UncleLGND12/UNCLE-UBOT/root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
 
 #Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/UncleLGND12/UNCLE-UBOT/UNCLE-UBOT/requirements.txt
+RUN pip3 install -r https://raw.githubusercontent.com/UncleLGND12/UNCLE-UBOT/requirements.txt
 
 EXPOSE 80 443
 
