@@ -4,7 +4,7 @@ FROM xluxz/geezproject:buster
 # Geez-UserBot
 #yaudah iya
 
-RUN git clone -b UNCLE-UBOT https://github.com/UncleLGND12/UNCLE-UBOT/UNCLE-UBOT/root/userbot
+RUN git clone -b UNCLE-UBOT https://github.com/UncleLGND12/UNCLE-UBOT/UNCLE-UBOT/root /userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
