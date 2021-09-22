@@ -324,7 +324,7 @@ async def amireallyalive(alive):
       #  f"┣|• `Modules     :`{len(modules)} Modules \n"
       #  f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
       #  f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-      #  f"[{REPO_NAME}](https://github.com/ramadhani892/RAM-UBOT) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
+      //  f"[{REPO_NAME}](https://github.com/ramadhani892/RAM-UBOT) || [𝐆𝐑𝐎𝐔𝐏]({GROUP_LINK}) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
